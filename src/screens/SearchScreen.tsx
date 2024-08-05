@@ -20,7 +20,7 @@ const SearchScreen = ({ navigation }: any) => {
       const json = await response.json();
       setSearchList(json.results);
     } catch (error) {
-      console.error("Il y aaa un problème dans la fonction searchMoviesFunction", error);
+      console.error("Il y a un problème dans la fonction searchMoviesFunction", error);
     }
   };
 
